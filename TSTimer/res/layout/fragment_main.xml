@@ -13,7 +13,7 @@
         android:layout_width="fill_parent"
         android:layout_height="500px"/>
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
@@ -22,7 +22,7 @@
         android:id="@+id/calljs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/textView"
+        android:layout_below="@id/textview"
         android:onClick="jsCall"
         android:text="자바스크립트 호출" >
     </button>
